@@ -25,6 +25,8 @@ public class Login implements UserDetails {
 
     private String password;
 
+    private String clientid;
+
     @ManyToMany(fetch = FetchType.EAGER)
     private Set<Profile> perfis;
 
